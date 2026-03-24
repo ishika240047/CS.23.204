@@ -1,5 +1,7 @@
 # CS.23.204
 [Program 7 : Abstract class](#xyz)
+[Program 8 : final  ]
+## xyz
 ```abstract class Salary //abstract class
 	    {
 		int perMonth=500000;
@@ -46,4 +48,26 @@ public class AbDemo
     }```
 Output
 <img width="204" height="88" alt="image" src="https://github.com/user-attachments/assets/bc7ad64c-05a6-4afc-a4d8-edd03ae00dfa" />
+
+class Superclass {
+    //final variable 
+    final int i = 10 ;
+    //final method 
+    final void display(){
+        System.out.println("Super class method ");
+        System.out.println("final variable " + i);
+    }
+}
+
+
+public class Final extends Superclass {
+    void display(int i ){
+        System.out.println("you are in the method of the child class");
+    }
+public static void main(String[] args) {
+    Final obj = new Final();
+    obj.display(10);
+}
+}
+
 
