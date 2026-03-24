@@ -1,5 +1,5 @@
 # CS.23.204
-
+[Program 7 : Abstract class](#xyz)
 ```abstract class Salary //abstract class
 	    {
 		int perMonth=500000;
