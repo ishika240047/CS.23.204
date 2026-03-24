@@ -1,7 +1,7 @@
 # CS.23.204
-[Program 7 : Abstract class](#xyz)
-[Program 8 : final  ]
-## xyz
+[Program 7 : Abstract class]
+[Program 8 : final  ](#mno)
+
 ```abstract class Salary //abstract class
 	    {
 		int perMonth=500000;
@@ -49,6 +49,7 @@ public class AbDemo
 Output
 <img width="204" height="88" alt="image" src="https://github.com/user-attachments/assets/bc7ad64c-05a6-4afc-a4d8-edd03ae00dfa" />
 
+## mno
 class Superclass {
     //final variable 
     final int i = 10 ;
