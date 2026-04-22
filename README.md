@@ -1,6 +1,7 @@
 # CS.23.204
-[ Program 1 : Write a program for addition ,subtractio, multiplication ,division using object and classes .](#program1)
-## Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.
+[ Program 1 : Write a program for addition ,subtractio, multiplication ,division using object and classes .](#program1)  
+
+[ Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.](#program2)
 
 ## program1
 ```
@@ -42,14 +43,47 @@ public class Main {
     }
 }
 ```
+<img width="165" height="119" alt="Screenshot 2026-04-22 114826" src="https://github.com/user-attachments/assets/aa0cbc0b-c181-41f5-8b34-e3ee03c332fa" />  
 
-
- 
-
-## Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.
+## program2
 ```
+class Distance {
+    int m, cm, mm;
+
+    Distance(int m, int cm, int mm) {
+        this.m = m;
+        this.cm = cm;
+        this.mm = mm;
+    }
+
+    void add(Distance d2) {
+        int total_mm = this.mm + d2.mm;
+        int total_cm = this.cm + d2.cm + total_mm / 10;
+        total_mm %= 10;
+
+        int total_m = this.m + d2.m + total_cm / 100;
+        total_cm %= 100;
+
+        System.out.println("Result = " + total_m + "m " + total_cm + "cm " + total_mm + "mm");
+    }
+}
+
+public class Distance1 {
+    public static void main(String[] args) {
+        Distance d1 = new Distance(2, 50, 5);
+        Distance d2 = new Distance(3, 70, 8);
+
+        d1.add(d2);
+    }
+}
+
 
 ```
+## Output :
+
+<img width="1454" height="42" alt="Screenshot 2026-04-22 141000" src="https://github.com/user-attachments/assets/1e27f6ae-682a-4875-b884-581160a51925" />
+
+
 
 ## Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.
 ### Without Thread
