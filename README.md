@@ -1,5 +1,8 @@
 # CS.23.204
-## Program 1 : Write a program for addition ,subtractio, multiplication ,division using object and classes .
+[ Program 1 : Write a program for addition ,subtractio, multiplication ,division using object and classes .](#program1)
+## Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.
+
+## program1
 ```
 class Calculator {
     int a, b;
@@ -39,8 +42,10 @@ public class Main {
     }
 }
 ```
-## [Output] ("C:\Users\ishik\OneDrive\Pictures\Screenshots\Screenshot 2026-04-21 163046.png")
----
+
+
+ 
+
 ## Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.
 ```
 
