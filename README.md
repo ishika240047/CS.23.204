@@ -1,7 +1,9 @@
 # CS.23.204
 [ Program 1 : Write a program for addition ,subtractio, multiplication ,division using object and classes .](#program1)  
 
-[ Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.](#program2)
+[ Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.](#program2)  
+
+[ Program 4 : Write a class for addition of two time given in hours, min and seconds.](#program4)
 
 ## program1
 ```
@@ -84,6 +86,45 @@ public class Distance1 {
 <img width="1454" height="42" alt="Screenshot 2026-04-22 141000" src="https://github.com/user-attachments/assets/1e27f6ae-682a-4875-b884-581160a51925" />
 
 
+---
+
+## program4 
+### Write a class for addition of two time given in hours, min and seconds
+```
+class Time1 {
+    int h, m, s;
+
+    Time1(int h, int m, int s) {
+        this.h = h;
+        this.m = m;
+        this.s = s;
+    }
+
+    void add(Time1 t2) {
+        int sec = this.s + t2.s;
+        int min = this.m + t2.m + sec / 60;
+        sec = sec % 60;
+
+        int hr = this.h + t2.h + min / 60;
+        min = min % 60;
+
+        System.out.println("Result Time = " + hr + " hr " + min + " min " + sec + " sec");
+    }
+}
+
+public class Time {
+    public static void main(String[] args) {
+
+        Time1 t1 = new Time1(2, 45, 50);
+        Time1 t2 = new Time1(3, 20, 30);
+
+        t1.add(t2);
+    }
+}
+```
+## Output 
+<img width="1345" height="41" alt="Screenshot 2026-04-22 142231" src="https://github.com/user-attachments/assets/b4d93149-0958-4d72-af10-ddc131cdf8f8" />
+---
 
 ## Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.
 ### Without Thread
