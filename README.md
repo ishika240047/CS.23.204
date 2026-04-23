@@ -3,7 +3,9 @@
 
 [ Program 2 : Write a class for addition of two distance where each distance is given in m,cm,mm.](#program2)  
 
-[ Program 4 : Write a class for addition of two time given in hours, min and seconds.](#program4)
+[ Program 4 : Write a class for addition of two time given in hours, min and seconds.](#program4)  
+
+[ Program 5 :  Write a program making a class for addition of two time given in hours and min Using Scanner class.](#program5)  
 
 ## program1
 ```
@@ -124,8 +126,68 @@ public class Time {
 ```
 ## Output 
 <img width="1345" height="41" alt="Screenshot 2026-04-22 142231" src="https://github.com/user-attachments/assets/b4d93149-0958-4d72-af10-ddc131cdf8f8" />
----
+---  
 
+## program5  
+
+### Write a program making a class for addition of two time given in hours, min using Scanner class.  
+
+```
+import java.util.*;
+class TimeHM {
+    int h1, m1,h2,m2;
+
+   
+    void input(){
+    Scanner sc  = new Scanner(System.in);
+    System.out.println("enter the time in hour");
+     h1 = sc.nextInt();
+    System.out.println("enter the time in minutes");
+    m1 = sc.nextInt();  
+    System.out.println("enter the time in hour");
+     h2 = sc.nextInt();
+    System.out.println("enter the time in minutes");
+    m2 = sc.nextInt(); 
+         }
+
+    
+    void add() {
+
+       
+        int totalMin = m1 + m2;
+
+        
+        int extraHour = totalMin / 60;
+
+        
+        int finalMin = totalMin % 60;
+
+        
+        int finalHour = h1 + h2 + extraHour;
+
+        
+        System.out.println("Final Time = " + finalHour + " hours " + finalMin + " minutes");
+    }
+}
+
+
+public class TimeH {
+    public static void main(String[] args) {
+
+ 
+        TimeHM t1 = new TimeHM();
+        
+
+        t1.input();
+        t1.add();
+    }
+}
+```
+## Output
+
+<img width="1407" height="226" alt="Screenshot 2026-04-23 155906" src="https://github.com/user-attachments/assets/6cbc1550-e848-4dc7-a750-471e358f5b6a" />
+
+---
 ## Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.
 ### Without Thread
 ```
