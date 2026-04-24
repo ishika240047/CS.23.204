@@ -454,17 +454,8 @@ public class IshiTred2 {
 }
 ```
 ## OUTPUT 
-0 from class1 <br>
-0 from class3 <br>
-0 from class2 <br>
-1 from class1<br>
-1 from class3 <br>
-2 from class3 <br>
-3 from class3 <br>
-1 from class2 <br>
-2 from class1 <br>
-.......................<br>
-........................<br>
+<img width="1285" height="177" alt="image" src="https://github.com/user-attachments/assets/e07afa17-5713-4b69-8b24-b464c8835e3e" />
+
 
 ### Using Runnable interface
 ```
@@ -506,18 +497,9 @@ public class IshiTred3 {
 }
 ```
 ## OUTPUT 
-0 from class1<br>
-0 from class3 <br>
-0 from class2 <br>
-1 from class1<br>
-1 from class3 <br>
-2 from class3 <br>
-3 from class3 <br>
-1 from class2 <br>
-2 from class1 <br>
-.........................<br>
-...........................<br>
-[Program 7 : Abstract class]
+<img width="1304" height="204" alt="image" src="https://github.com/user-attachments/assets/c90d8cca-8176-468a-9689-f87304bca56b" />
+
+---
 [Program 8 : final  ](#mno)
 
 ```abstract class Salary //abstract class
