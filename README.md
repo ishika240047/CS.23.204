@@ -419,16 +419,7 @@ public class IshiTred {
 
 ```
 ## OUTPUT 
-0 from class1<br>
-1 from class1<br>
-2 from class1<br>
-3 from class1<br>
-..........................<br>
-..........................<br>
-99 from class1<br>
-1 from class2<br>
-.............................<br>
-.............................<br>
+<img width="1279" height="195" alt="image" src="https://github.com/user-attachments/assets/693200b6-b1ce-4d05-bd52-45528f2c4231" />
 
 ### Using Thread
 ```
