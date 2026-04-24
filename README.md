@@ -9,7 +9,9 @@
 
 [ Program 7 : Write a class that is having four method for 1-dimensional array. (Input, output 1,ouput2, reverse).](#program7)  
 
-[ Program 8 : write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#program8)
+[ Program 8 : write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#program8)  
+
+[ Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.](#program9)
 
 ## program1
 ```
@@ -379,6 +381,7 @@ public class Matrix {
 
 
 ---  
+## program9  
 
 ## Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.
 ### Without Thread
