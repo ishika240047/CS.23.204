@@ -5,7 +5,9 @@
 
 [ Program 4 : Write a class for addition of two time given in hours, min and seconds.](#program4)  
 
-[ Program 5 :  Write a program making a class for addition of two time given in hours and min Using Scanner class.](#program5)  
+[ Program 5 :  Write a program making a class for addition of two time given in hours and min Using Scanner class.](#program5)   
+
+[ Program 7 : Write a class that is having four method for 1-dimensional array. (Input, output 1,ouput2, reverse).](#program7)  
 
 ## program1
 ```
@@ -187,7 +189,79 @@ public class TimeH {
 
 <img width="1407" height="226" alt="Screenshot 2026-04-23 155906" src="https://github.com/user-attachments/assets/6cbc1550-e848-4dc7-a750-471e358f5b6a" />
 
----
+---  
+
+## program7
+
+## Program 7  : Write a class that is having four method for 1-dimensional array. (Input, output 1,output 2, reverse  .
+
+```
+import java.util.Scanner;
+
+class ArrayOps {
+    int arr[] = new int[5];   
+
+   
+    void input() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 5 elements:");
+
+        for(int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
+    }
+
+    
+    void output1() {
+        System.out.println("Output using for loop:");
+
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Method 3: Output using for-each loop
+    void output2() {
+        System.out.println("Output using for-each loop:");
+
+        for(int x : arr) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
+
+    
+    void reverse() {
+        System.out.println("Array in reverse:");
+
+        for(int i = arr.length - 1; i >= 0; i--) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+}
+
+
+public class Arr {
+    public static void main(String[] args) {
+
+        ArrayOps obj = new ArrayOps();
+
+        obj.input();
+        obj.output1();
+        obj.output2();
+        obj.reverse();
+    }
+}
+```
+
+## Output : 
+<img width="1722" height="530" alt="Screenshot 2026-04-24 134634" src="https://github.com/user-attachments/assets/daa8113f-aecc-47db-9955-8a38b6e5e169" />
+
+
+---  
+
 ## Program 9 : Write a program using three classes to print 1-100,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.
 ### Without Thread
 ```
